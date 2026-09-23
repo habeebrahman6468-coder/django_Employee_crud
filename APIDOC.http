@@ -23,4 +23,16 @@ Content-Type: application/json
 GET http://127.0.0.1:8000/employees/2/
 Accept: application/json
 
+#API call for updating employee
+###
+PUT http://127.0.0.1:8000/employees/2/
+Content-Type: application/json
 
+{
+   
+    "name": "ajay",
+    "department": "hr",
+    "salary": 60000,
+    "location": "thrissur",
+    "email": "ajay@gmail.com" 
+ }
